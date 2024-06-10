@@ -1,0 +1,15 @@
+id = "vala"
+name = "Vala"
+description = "Vala language support for Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Evan Maddock <maddock.evan@vivaldi.net>"]
+repository = "https =//github.com/EbonJaeger/zed-vala"
+
+[grammars.vala]
+repository = "https://github.com/vala-lang/tree-sitter-vala"
+commit = "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"
+
+[language_servers.vala]
+name = "vala-language-server"
+language = "Vala"
